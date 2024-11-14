@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "lesson_number": 1,
+      "lesson_article": "https://drive.google.com/file/d/1DQa3OkFwEftsWKHrtZmw91Hwl9wegv3z/view?usp=drive_link",
+      "worksheet": "https://drive.google.com/file/d/1DtognEI57qvbFH35ogpcRKunQ1btBIK7/view?usp=drive_link"
+    },
+    {
+      "lesson_number": 2,
+      "lesson_article": "https://drive.google.com/file/d/1ECW0Y1gnHbI_QibknEvBuSdq6VcSfrhA/view?usp=drive_link",
+      "worksheet": "https://drive.google.com/file/d/1DzXvacca__1tdGNT4faCNpji9h9tcSMu/view?usp=drive_link"
+    }
+  ]
+}
