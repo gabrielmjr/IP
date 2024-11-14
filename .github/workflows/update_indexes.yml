@@ -1,0 +1,42 @@
+name: Update indexes
+run-name: Update indexes on readme file
+
+on:
+  push:
+    branches: [ 'master' ]
+
+  pull_request:
+    branches: [ 'master' ]
+    
+permissions:
+  contents: write
+
+jobs:
+  update-indexes:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python 3.13 and PIP
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r .automation/requirements.txt
+
+      - name: Run scipt
+        run: python .automation/main.py
+
+      - name: Setup the username
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: Update indexes and push
+        run: |
+          git add .
+          git commit -m "actions: Updated indexes"
+          git push
