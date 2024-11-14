@@ -3,26 +3,22 @@ package com.mjr.code.ip.aula8;
 import java.io.*;
 
 public class Exercise2 {
-    private static BufferedReader bReader;
-
     public static void main(String[] args) throws IOException {
-        bReader = new BufferedReader(new InputStreamReader(System.in));
-        File file = criarFicheiro();
-        String[] viaturas = lerInformacoesDeViaturas();
-        escreverNoFicheiro(viaturas, file);
-        lerDoFicheiro(file);
+        criarFicheiro();
+        escreverNoFicheiro();
+        lerDoFicheiro();
     }
 
-    private static File criarFicheiro() throws IOException {
-        System.out.print("Nome do ficheiro: ");
-        String nome = bReader.readLine();
-        File file = new File(nome);
+    private static void criarFicheiro() throws IOException {
+        File file = new File("exercise2.txt");
         if (!file.exists())
             file.createNewFile();
-        return file;
     }
 
-    private static String[] lerInformacoesDeViaturas() throws IOException {
+    private static void escreverNoFicheiro() throws IOException {
+        BufferedReader bReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bWriter = new BufferedWriter(new FileWriter("exercise2.txt"));
+
         int quantidadeDeViaturas = 0;
         do {
             System.out.print("Quantidade de viaturas: ");
@@ -38,24 +34,18 @@ public class Exercise2 {
             viaturas[i] += " : ";
             System.out.print("Ano de fabrico da viatura: ");
             viaturas[i] += Integer.parseInt(bReader.readLine());
+            System.out.println();
         }
 
-        return viaturas;
-    }
-
-    private static void escreverNoFicheiro(String[] viaturas, File file) throws IOException {
-        FileWriter fWriter = new FileWriter(file);
-        BufferedWriter bWriter = new BufferedWriter(fWriter);
-        for (String viatura : viaturas)
-            bWriter.append(viatura)
-                    .append(System.lineSeparator());
+        for (String viatura : viaturas) {
+            bWriter.write(viatura);
+            bWriter.newLine();
+        }
         bWriter.close();
-        fWriter.close();
     }
 
-    private static void lerDoFicheiro(File file) throws IOException {
-        FileReader fReader = new FileReader(file);
-        bReader = new BufferedReader(fReader);
+    private static void lerDoFicheiro() throws IOException {
+        BufferedReader bReader = new BufferedReader(new FileReader("exercise2.txt"));
         String line;
         while ((line = bReader.readLine()) != null)
             System.out.println(line);
