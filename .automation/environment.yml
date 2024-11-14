@@ -1,0 +1,6 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - pip:
+      - -r file: .automation/requirements.txt
