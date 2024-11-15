@@ -3,4 +3,4 @@ channels:
   - defaults
 dependencies:
   - pip:
-      - -r .automation/requirements.txt
+      - -r requirements.txt
