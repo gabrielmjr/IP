@@ -4,13 +4,17 @@ import re
 import requests
 
 
+automation_dir = os.path.split(os.path.abspath(__f
+ile__))[0]
+
+
 def open_links():
-    with open('resources.json', 'r') as opened_json_file:
+    with open(os.path.join(automation_dir, 'resources.json'), 'r') as opened_json_file:
         return json.load(opened_json_file)
 
 
 def read_readme_file():
-    with open('../README.md', 'r') as readme:
+    with open(os.path.join(automation_dir, '../README.md'), 'r') as readme:
         return remove_indexes(readme.read())
 
 
@@ -23,7 +27,7 @@ def get_doc_name(drive_doc_link: str):
 
 
 def write_to_readme_file(content: str):
-    with open('../README.md', 'w') as readme_file:
+    with open(os.path.join(automation_dir, '../README.md'), 'w') as readme_file:
         readme_file.write(content)
 
 
