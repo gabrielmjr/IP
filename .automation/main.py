@@ -4,8 +4,7 @@ import re
 import requests
 
 
-automation_dir = os.path.split(os.path.abspath(__f
-ile__))[0]
+automation_dir = os.path.split(os.path.abspath(__file__))[0]
 
 
 def open_links():
