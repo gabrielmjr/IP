@@ -11,6 +11,15 @@ IP, which stands for ***Introdução à Programação**** in Portuguese is a sub
 This repository tends to have all solved exercises given in the lesson during the course, where each sub-package inside the [home package](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip) represents one lesson and each .java file represents each exercise.
 
 ## Indexes
+- IP- Aula 1 Revisao Desenho de algoritmos
+  - [Article](https://drive.google.com/file/d/1DQa3OkFwEftsWKHrtZmw91Hwl9wegv3z/view?usp=drive_link)
+  - [Worksheet](https://drive.google.com/file/d/1DtognEI57qvbFH35ogpcRKunQ1btBIK7/view?usp=drive_link)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson1)
+
+- IP Introducao a Java_Dados Aula 2
+  - [Article](https://drive.google.com/file/d/1ECW0Y1gnHbI_QibknEvBuSdq6VcSfrhA/view?usp=drive_link)
+  - [Worksheet](https://drive.google.com/file/d/1DzXvacca__1tdGNT4faCNpji9h9tcSMu/view?usp=drive_link)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson2)
 
 ## License
        Copyright 2024 Gabriel MJr
