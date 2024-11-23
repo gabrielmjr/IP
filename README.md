@@ -21,6 +21,36 @@ This repository tends to have all solved exercises given in the lesson during th
   - [Worksheet](https://drive.google.com/file/d/1DzXvacca__1tdGNT4faCNpji9h9tcSMu/view?usp=drive_link)
   - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson2)
 
+- IP Entrada e Saida de Dados Aula 3
+  - [Article](https://drive.google.com/file/d/1Da8FlnGzu4TIyaf72W8VU6aAKFNoSGD0/view?usp=drivesdk)
+  - [Worksheet](https://drive.google.com/file/d/1DiEyvsqQHnb-yv_zS3As9Rg3JMoxzk3U/view?usp=drivesdk)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson3)
+
+- IP Estruturas de Controlo Selecao Aula 4
+  - [Article](https://drive.google.com/file/d/1DdWG8gr-9qcIaTALcBTFiNXsQnQciwYc/view?usp=drivesdk)
+  - [Worksheet](https://drive.google.com/file/d/1DmcxAVza0gIXApDGmZ06H4WzYtxjT1Hy/view?usp=drivesdk)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson4)
+
+- IP Estruturas de Controle-Repeticao Aula 5
+  - [Article](https://drive.google.com/file/d/1Da9j_CbhH1zG5Gq5Vz6Mf3pEhZMmrNlY/view?usp=drivesdk)
+  - [Worksheet](https://drive.google.com/file/d/1E5JCSrZUZ0M_dHXDCwdG14t795a-EqUK/view?usp=drivesdk)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson5)
+
+- IP Arrays Vectores e Matrizes Aula 6
+  - [Article](https://drive.google.com/file/d/1DTPYHF5bVyetyqNvNkbGCe3Vj2M13bi-/view?usp=drivesdk)
+  - [Worksheet](https://drive.google.com/file/d/1E5NY7-IPlHOlCAgxag-K0Zghh_LQMCrz/view?usp=drivesdk)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson6)
+
+- IP Metodos Aula 7
+  - [Article](https://drive.google.com/file/d/1EHwUtQAnmDv2fH1uHR33_Y3RmH77jBKf/view?usp=drivesdk)
+  - [Worksheet](https://drive.google.com/file/d/1E8XwwkQOca-EhzhcIgeXnyCQ2exI-GZE/view?usp=drivesdk)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson7)
+
+- IP Aula 8 Ficheiros de Tesxto classe_stringTokenizer
+  - [Article](https://drive.google.com/file/d/1DY2cmzlJDeczM8XO6oY1UQq1dkfaH3gs/view?usp=drivesdk)
+  - [Worksheet](https://drive.google.com/file/d/1I0PQw6uV0xN8z2oYxpUBZH4d6dRMchS-/view?usp=drivesdk)
+  - [Solved exercises](https://github.com/gabrielmjr/IP/tree/master/src/main/java/com/mjr/code/ip/lesson8)
+
 ## License
        Copyright 2024 Gabriel MJr
 
